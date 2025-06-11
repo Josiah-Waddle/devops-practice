@@ -1,0 +1,31 @@
+🕒 System Log - Wed Jun 11 00:54:33 EDT 2025
+👤 User: waddles
+💾 Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/6.6.87.1-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         931G  592G  340G  64% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.0G  954G   1% /
+none            3.9G   80K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  2.7M  3.9G   1% /init
+none            3.9G  544K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             931G  592G  340G  64% /mnt/c
+tmpfs           3.9G   16K  3.9G   1% /run/user/1000
+
+🧠 Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:           7.6Gi       584Mi       6.7Gi       3.5Mi       572Mi       7.1Gi
+Swap:          2.0Gi          0B       2.0Gi
+
+🔥 Top 5 CPU Processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root        1431  0.6  0.1  66720 14940 ?        S<s  00:30   0:09 /usr/lib/systemd/systemd-journald
+root           1  0.1  0.1  21948 13056 ?        Ss   00:28   0:02 /usr/lib/systemd/systemd --system --deserialize=24
+message+     182  0.0  0.0   9772  4992 ?        Ss   00:28   0:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         189  0.0  0.1  17960  8576 ?        Ss   00:28   0:00 /usr/lib/systemd/systemd-logind
+systemd+    1483  0.0  0.0  91020  7680 ?        Ssl  00:30   0:00 /usr/lib/systemd/systemd-timesyncd
